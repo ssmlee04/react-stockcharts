@@ -99,7 +99,7 @@ class FibonacciRetracement extends Component {
 			const newRetracements = retracements.map(
 				(each, idx) =>
 					(idx === index
-						? { ...each, ...rest, selected: true }
+						? { ...each, ...rest, selected: false }
 						: each)
 			);
 			this.setState(
@@ -140,7 +140,7 @@ class FibonacciRetracement extends Component {
 				...current,
 				x2: xyValue[0],
 				y2: xyValue[1],
-				selected: true,
+				selected: false,
 				appearance,
 				type,
 			});
