@@ -2,8 +2,8 @@
   "name": "react-stockcharts",
   "version": "0.7.8",
   "description": "Highly customizable stock charts with ReactJS and d3",
-  "main": "build/index.js",
-  "module": "build/index.js",
+  "main": "index.js",
+  "module": "index.js",
   "author": {
     "name": "Ragu Ramaswamy"
   },
