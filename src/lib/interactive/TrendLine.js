@@ -55,7 +55,7 @@ class TrendLine extends Component {
 						...each,
 						start: [override.x1Value, override.y1Value],
 						end: [override.x2Value, override.y2Value],
-						selected: true,
+						selected: false,
 					}
 					: {
 						...each,
@@ -110,7 +110,7 @@ class TrendLine extends Component {
 				{
 					start: current.start,
 					end: xyValue,
-					selected: true,
+					selected: false,
 					appearance,
 					type,
 				}
