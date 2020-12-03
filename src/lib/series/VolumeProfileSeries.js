@@ -71,7 +71,7 @@ VolumeProfileSeries.defaultProps = {
 	bins: 20,
 	opacity: 0.5,
 	maxProfileWidthPercent: 50,
-	fill: ({ type }) => type === "up" ? "#6BA583" : "#FF0000",
+	fill: ({ type }) => type === "up" ? "rgba(100, 170, 50, 0.2)" : "rgba(255, 0, 0, 0.1)",
 	stroke: "#FFFFFF",
 	showSessionBackground: false,
 	sessionBackGround: "#4682B4",
